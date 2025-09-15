@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knowledge Hub | Global Cancer Research Network</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="assets/images/cancer.ico">
+    <link rel="stylesheet" href="css/knowledge.css"/>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container header-container">
+            <a href="cancer.html" class="logo">Global<span>Cancer</span>Network</a>
+                        
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+                        
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="cancer.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="researchers.html" class="nav-link">Researchers</a></li>
+                <li class="nav-item"><a href="collaboration.html" class="nav-link">Collaboration</a></li>
+                <li class="nav-item"><a href="communities.html" class="nav-link">Communities</a></li>
+                <li class="nav-item"><a href="funding.html" class="nav-link">Funding</a></li>
+                <li class="nav-item"><a href="knowledge.html" class="nav-link active">Knowledge</a></li>
+                <li class="nav-item"><a href="login.html" class="nav-link btn">Login</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Knowledge Hub</h1>
+            <p>Access the latest research, datasets, protocols, and publications in cancer research</p>
+        </div>
+    </section>
+
+    <!-- Search Section -->
+    <section class="search-section">
+        <div class="container search-container">
+            <h2>Find Research Resources</h2>
+            <p>Search publications, datasets, protocols, and more</p>
+            
+            <div class="search-box">
+                <input type="text" class="search-input" placeholder="Enter keywords, titles, authors, or DOI...">
+                <button class="search-button">Search</button>
+            </div>
+            
+            <div class="filter-options">
+                <button class="filter-button active">All</button>
+                <button class="filter-button">Publications</button>
+                <button class="filter-button">Datasets</button>
+                <button class="filter-button">Protocols</button>
+                <button class="filter-button">Reviews</button>
+                <button class="filter-button">Clinical Trials</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Resources -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Featured Resources</h2>
+            <div class="resources-grid">
+                <!-- Resource 1 -->
+                <div class="card resource-card fade-in">
+                    <span class="resource-type publication">Research Paper</span>
+                    <h3>Novel Biomarkers for Early Detection of Pancreatic Cancer</h3>
+                    <p>Identification and validation of circulating microRNA signatures for early detection of pancreatic ductal adenocarcinoma.</p>
+                    <div class="resource-meta">
+                        <i class="fas fa-calendar"></i>
+                        <span>Published: August 15, 2023</span>
+                    </div>
+                    <div class="resource-author">
+                        <div class="author-avatar" style="background-color: #6baed6; color: white; display: flex; align-items: center; justify-content: center; font-weight: bold;">JL</div>
+                        <div>
+                            <strong>Dr. Jennifer Lee</strong>
+                            <p>Nature Cancer</p>
+                        </div>
+                    </div>
+                    <a href="#" class="btn">Access Resource</a>
+                </div>
+                
+                <!-- Resource 2 -->
+                <div class="card resource-card fade-in">
+                    <span class="resource-type dataset">Dataset</span>
+                    <h3>Comprehensive Genomic Profile of 10,000 Cancer Patients</h3>
+                    <p>Whole exome and transcriptome sequencing data from a diverse cohort of cancer patients across 25 cancer types.</p>
+                    <div class="resource-meta">
+                        <i class="fas fa-database"></i>
+                        <span>Size: 4.2 TB | Updated: September 3, 2023</span>
+                    </div>
+                    <div class="resource-author">
+                        <div class="author-avatar" style="background-color: #2c5aa0; color: white; display: flex; align-items: center; justify-content: center; font-weight: bold;">TCGA</div>
+                        <div>
+                            <strong>The Cancer Genome Atlas</strong>
+                            <p>Public Dataset</p>
+                        </div>
+                    </div>
+                    <a href="#" class="btn">Access Resource</a>
+                </div>
+                
+                <!-- Resource 3 -->
+                <div class="card resource-card fade-in">
+                    <span class="resource-type protocol">Protocol</span>
+                    <h3>Standardized Protocol for CAR-T Cell Production</h3>
+                    <p>Step-by-step protocol for chimeric antigen receptor T-cell therapy manufacturing with quality control measures.</p>
+                    <div class="resource-meta">
+                        <i class="fas fa-vial"></i>
+                        <span>Protocol Version: 2.1 | Updated: July 22, 2023</span>
+                    </div>
+                    <div class="resource-author">
+                        <div class="author-avatar" style="background-color: #e63946; color: white; display: flex; align-items: center; justify-content: center; font-weight: bold;">CR</div>
+                        <div>
+                            <strong>Cell Therapy Research Group</strong>
+                            <p>Memorial Sloan Kettering</p>
+                        </div>
+                    </div>
+                    <a href="#" class="btn">Access Resource</a>
+                </div>
+                
+                <!-- Resource 4 -->
+                <div class="card resource-card fade-in">
+                    <span class="resource-type review">Systematic Review</span>
+                    <h3>Efficacy of Immune Checkpoint Inhibitors Across Cancer Types</h3>
+                    <p>Comprehensive systematic review and meta-analysis of clinical trials evaluating PD-1/PD-L1 and CTLA-4 inhibitors.</p>
+                    <div class="resource-meta">
+                        <i class="fas fa-file-alt"></i>
+                        <span>Published: October 5, 2023 | 125 Studies Analyzed</span>
+                    </div>
+                    <div class="resource-author">
+                        <div class="author-avatar" style="background-color: #2a9d8f; color: white; display: flex; align-items: center; justify-content: center; font-weight: bold;">MG</div>
+                        <div>
+                            <strong>Dr. Michael Gonzalez</strong>
+                            <p>The Lancet Oncology</p>
+                        </div>
+                    </div>
+                    <a href="#" class="btn">Access Resource</a>
+                </div>
+                
+                <!-- Resource 5 -->
+                <div class="card resource-card fade-in">
+                    <span class="resource-type publication">Clinical Trial Report</span>
+                    <h3>Phase III Trial Results: Novel Combination Therapy for Glioblastoma</h3>
+                    <p>Randomized controlled trial of temozolomide combined with novel targeted agent in newly diagnosed glioblastoma patients.</p>
+                    <div class="resource-meta">
+                        <i class="fas fa-clipboard-check"></i>
+                        <span>Published: September 18, 2023 | 340 Participants</span>
+                    </div>
+                    <div class="resource-author">
+                        <div class="author-avatar" style="background-color: #6a4c93; color: white; display: flex; align-items: center; justify-content: center; font-weight: bold;">NC</div>
+                        <div>
+                            <strong>Neuro-Oncology Consortium</strong>
+                            <p>New England Journal of Medicine</p>
+                        </div>
+                    </div>
+                    <a href="#" class="btn">Access Resource</a>
+                </div>
+                
+                <!-- Resource 6 -->
+                <div class="card resource-card fade-in">
+                    <span class="resource-type dataset">Imaging Dataset</span>
+                    <h3>Multimodal Cancer Imaging Collection</h3>
+                    <p>Comprehensive collection of MRI, CT, and PET scans with corresponding pathology annotations for 2,500 cancer cases.</p>
+                    <div class="resource-meta">
+                        <i class="fas fa-images"></i>
+                        <span>Size: 8.7 TB | Updated: August 30, 2023</span>
+                    </div>
+                    <div class="resource-author">
+                        <div class="author-avatar" style="background-color: #f25c54; color: white; display: flex; align-items: center; justify-content: center; font-weight: bold;">NCI</div>
+                        <div>
+                            <strong>National Cancer Institute</strong>
+                            <p>Cancer Imaging Archive</p>
+                        </div>
+                    </div>
+                    <a href="#" class="btn">Access Resource</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="section stats-section">
+        <div class="container">
+            <h2 class="section-title">Knowledge Hub Impact</h2>
+            <div class="stats-grid">
+                <div class="card stat-card fade-in">
+                    <div class="stat-number">25,000+</div>
+                    <p>Research Publications</p>
+                </div>
+                <div class="card stat-card fade-in">
+                    <div class="stat-number">8,500+</div>
+                    <p>Datasets</p>
+                </div>
+                <div class="card stat-card fade-in">
+                    <div class="stat-number">1,200+</div>
+                    <p>Protocols & Methods</p>
+                </div>
+                <div class="card stat-card fade-in">
+                    <div class="stat-number">350+</div>
+                    <p>Systematic Reviews</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="section categories-section">
+        <div class="container">
+            <h2 class="section-title" style="color: white;">Browse by Category</h2>
+            <div class="categories-container">
+                <div class="category-card fade-in">
+                    <div class="category-icon">
+                        <i class="fas fa-dna"></i>
+                    </div>
+                    <h3>Genomics</h3>
+                    <p>2,400 resources</p>
+                </div>
+                <div class="category-card fade-in">
+                    <div class="category-icon">
+                        <i class="fas fa-shield-virus"></i>
+                    </div>
+                    <h3>Immunotherapy</h3>
+                    <p>1,800 resources</p>
+                </div>
+                <div class="category-card fade-in">
+                    <div class="category-icon">
+                        <i class="fas fa-microscope"></i>
+                    </div>
+                    <h3>Preclinical Research</h3>
+                    <p>3,200 resources</p>
+                </div>
+                <div class="category-card fade-in">
+                    <div class="category-icon">
+                        <i class="fas fa-user-md"></i>
+                    </div>
+                    <h3>Clinical Trials</h3>
+                    <p>1,500 resources</p>
+                </div>
+                <div class="category-card fade-in">
+                    <div class="category-icon">
+                        <i class="fas fa-laptop-medical"></i>
+                    </div>
+                    <h3>AI & Data Science</h3>
+                    <p>950 resources</p>
+                </div>
+                <div class="category-card fade-in">
+                    <div class="category-icon">
+                        <i class="fas fa-globe-americas"></i>
+                    </div>
+                    <h3>Epidemiology</h3>
+                    <p>1,100 resources</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="section">
+        <div class="container">
+            <div class="section-title">Contribute to the Knowledge Hub</div>
+            <div style="text-align: center; max-width: 700px; margin: 0 auto;">
+                <p style="margin-bottom: 30px; font-size: 1.2rem;">Share your research findings, datasets, and protocols to advance cancer research worldwide.</p>
+                <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+                    <a href="register.html" class="btn btn-accent">Submit Research</a>
+                    <a href="login.html" class="btn btn-outline">Login to Contribute</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-col">
+                <h3>Global Cancer Research Network</h3>
+                <p>Connecting researchers worldwide to accelerate cancer breakthroughs through collaboration and knowledge sharing.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+                    <li><a href="about.html"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                    <li><a href="researchers.html"><i class="fas fa-chevron-right"></i> Researcher Directory</a></li>
+                    <li><a href="events.html"><i class="fas fa-chevron-right"></i> Events Calendar</a></li>
+                    <li><a href="funding.html"><i class="fas fa-chevron-right"></i> Funding Opportunities</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Resources</h3>
+                <ul class="footer-links">
+                    <li><a href="knowledge.html"><i class="fas fa-chevron-right"></i> Knowledge Hub</a></li>
+                    <li><a href="communities.html"><i class="fas fa-chevron-right"></i> Research Communities</a></li>
+                    <li><a href="reviewers.html"><i class="fas fa-chevron-right"></i> Reviewer Board</a></li>
+                    <li><a href="assistance.html"><i class="fas fa-chevron-right"></i> Assistance & Support</a></li>
+                    <li><a href="partnerships.html"><i class="fas fa-chevron-right"></i> Partnerships</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Contact Us</h3>
+                <ul class="footer-links">
+                    <li><i class="fas fa-envelope"></i> info@globalcancernetwork.org</li>
+                    <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+                    <li><i class="fas fa-map-marker-alt"></i> 123 Research Drive, Science Center, CA 94301</li>
+                </ul>
+                <form class="newsletter">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit" class="btn">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="container copyright">
+            <p>&copy; 2023 Global Cancer Research Network. All rights reserved.</p>
+            <p><a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Use</a></p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <script src="js/knowledge.js"></script>
+</body>
+</html>

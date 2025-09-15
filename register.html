@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register | Global Cancer Research Network</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="assets/images/cancer.ico">
+    <link rel="stylesheet" href="css/register.css" />
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container header-container">
+            <a href="cancer.html" class="logo">Global<span>Cancer</span>Network</a>
+                        
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+                        
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="cancer.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="researchers.html" class="nav-link">Researchers</a></li>
+                <li class="nav-item"><a href="collaboration.html" class="nav-link">Collaboration</a></li>
+                <li class="nav-item"><a href="communities.html" class="nav-link">Communities</a></li>
+                <li class="nav-item"><a href="funding.html" class="nav-link">Funding</a></li>
+                <li class="nav-item"><a href="knowledge.html" class="nav-link">Knowledge</a></li>
+                <li class="nav-item"><a href="login.html" class="nav-link btn">Login</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Registration Section -->
+    <section class="section register-section">
+        <div class="container register-container">
+            <div class="card register-card fade-in">
+                <div class="register-header">
+                    <div class="register-icon">
+                        <i class="fas fa-user-plus"></i>
+                    </div>
+                    <h2>Create Your Research Profile</h2>
+                    <p>Join our global network of cancer researchers and professionals</p>
+                </div>
+                
+                <div class="progress-bar">
+                    <div class="progress-step completed">1</div>
+                    <div class="progress-step active">2</div>
+                    <div class="progress-step">3</div>
+                </div>
+                
+                <form id="registerForm" class="register-form">
+                    <h3>Personal Information</h3>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="firstName">First Name *</label>
+                            <input type="text" id="firstName" class="form-control" placeholder="Enter your first name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="lastName">Last Name *</label>
+                            <input type="text" id="lastName" class="form-control" placeholder="Enter your last name" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" class="form-control" placeholder="Enter your email address" required>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="password">Password *</label>
+                            <input type="password" id="password" class="form-control" placeholder="Create a password" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="confirmPassword">Confirm Password *</label>
+                            <input type="password" id="confirmPassword" class="form-control" placeholder="Confirm your password" required>
+                        </div>
+                    </div>
+                    
+                    <h3>Professional Information</h3>
+                    
+                    <div class="form-group">
+                        <label for="institution">Institution/Organization *</label>
+                        <input type="text" id="institution" class="form-control" placeholder="Enter your institution name" required>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="position">Position/Title *</label>
+                            <select id="position" class="form-control" required>
+                                <option value="">Select your position</option>
+                                <option value="professor">Professor</option>
+                                <option value="researcher">Researcher</option>
+                                <option value="postdoc">Postdoctoral Researcher</option>
+                                <option value="phd">PhD Student</option>
+                                <option value="md">Medical Doctor</option>
+                                <option value="clinician">Clinician</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="department">Department</label>
+                            <input type="text" id="department" class="form-control" placeholder="Enter your department">
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="expertise">Research Expertise *</label>
+                        <select id="expertise" class="form-control" required>
+                            <option value="">Select your primary expertise</option>
+                            <option value="genomics">Cancer Genomics</option>
+                            <option value="immunotherapy">Immunotherapy</option>
+                            <option value="biomarkers">Biomarkers</option>
+                            <option value="drug_development">Drug Development</option>
+                            <option value="clinical_trials">Clinical Trials</option>
+                            <option value="epidemiology">Epidemiology</option>
+                            <option value="prevention">Cancer Prevention</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="interests">Research Interests *</label>
+                        <input type="text" id="interests" class="form-control" placeholder="e.g., Breast cancer, Immunotherapy, Precision medicine" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="country">Country *</label>
+                        <select id="country" class="form-control" required>
+                            <option value="">Select your country</option>
+                            <option value="usa">United States</option>
+                            <option value="uk">United Kingdom</option>
+                            <option value="canada">Canada</option>
+                            <option value="australia">Australia</option>
+                            <option value="germany">Germany</option>
+                            <option value="france">France</option>
+                            <option value="japan">Japan</option>
+                            <option value="china">China</option>
+                            <option value="india">India</option>
+                            <option value="brazil">Brazil</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-check">
+                        <input type="checkbox" id="terms" required>
+                        <label for="terms">I agree to the <a href="terms.html">Terms of Service</a> and <a href="privacy.html">Privacy Policy</a> *</label>
+                    </div>
+                    
+                    <div class="form-check">
+                        <input type="checkbox" id="newsletter">
+                        <label for="newsletter">Subscribe to our newsletter for updates on funding opportunities, events, and research news</label>
+                    </div>
+                    
+                    <div class="form-footer">
+                        <button type="submit" class="btn btn-accent">Create Account</button>
+                        <span>Already have an account? <a href="login.html">Login here</a></span>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-col">
+                <h3>Global Cancer Research Network</h3>
+                <p>Connecting researchers worldwide to accelerate cancer breakthroughs through collaboration and knowledge sharing.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+                    <li><a href="about.html"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                    <li><a href="researchers.html"><i class="fas fa-chevron-right"></i> Researcher Directory</a></li>
+                    <li><a href="events.html"><i class="fas fa-chevron-right"></i> Events Calendar</a></li>
+                    <li><a href="funding.html"><i class="fas fa-chevron-right"></i> Funding Opportunities</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Resources</h3>
+                <ul class="footer-links">
+                    <li><a href="knowledge.html"><i class="fas fa-chevron-right"></i> Knowledge Hub</a></li>
+                    <li><a href="communities.html"><i class="fas fa-chevron-right"></i> Research Communities</a></li>
+                    <li><a href="reviewers.html"><i class="fas fa-chevron-right"></i> Reviewer Board</a></li>
+                    <li><a href="assistance.html"><i class="fas fa-chevron-right"></i> Assistance & Support</a></li>
+                    <li><a href="partnerships.html"><i class="fas fa-chevron-right"></i> Partnerships</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Contact Us</h3>
+                <ul class="footer-links">
+                    <li><i class="fas fa-envelope"></i> info@globalcancernetwork.org</li>
+                    <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+                    <li><i class="fas fa-map-marker-alt"></i> 123 Research Drive, Science Center, CA 94301</li>
+                </ul>
+                <form class="newsletter">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit" class="btn">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="container copyright">
+            <p>&copy; 2023 Global Cancer Research Network. All rights reserved.</p>
+            <p><a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Use</a></p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <script src="js/register.js"></script>
+</body>
+</html>
