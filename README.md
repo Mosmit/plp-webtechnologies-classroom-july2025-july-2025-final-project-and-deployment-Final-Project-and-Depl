@@ -1,90 +1,94 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+# 🌐 Global Cancer Research Network Website
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
+A comprehensive, responsive website for connecting cancer researchers worldwide through collaboration, knowledge sharing, and resource discovery.
 
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
-
----
-
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
-
-Before you write any code, take time to plan:
-
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
-
-**Goal:** Show intentional structure and user journey across the site.
+![Cancer Research](https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80)
 
 ---
 
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
-
-Using your plan, begin building:
-
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
-
-Each page should:
-
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
-
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
+## 🔗 Live Demo
+**Live Website:** [Global Cancer Research Network (GCRN)](https://68c89ff9953c9f5ad2188149--golden-queijadas-771b29.netlify.app/)
 
 ---
 
-## 🛠️🚀 Part 3: Best Practices for Code Organization
+## 🎯 Project Purpose
+The Global Cancer Research Network website serves as a platform to connect cancer researchers worldwide, facilitating collaboration, knowledge sharing, and resource discovery.  
 
-Before deployment, refactor your project to follow production-friendly practices:
-
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
-
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
+The platform aims to accelerate cancer research breakthroughs by providing tools for researchers to:  
+- Find collaborators  
+- Access funding opportunities  
+- Join specialized communities  
+- Share knowledge and publications  
 
 ---
 
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
-
-Once your project is complete, choose a method to **host your site online**.
-
-You can use:
-
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
-
-Deploy your project and confirm that:
-
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
-
-**Goal:** Publish your work online and make it accessible to the world.
+## ✨ Features
+- **Modern Design:** Clean, professional interface with a cancer research-focused color scheme  
+- **Fully Responsive:** Optimized for all device sizes (desktop, tablet, mobile)  
+- **Interactive Elements:** Smooth animations, hover effects, and dynamic content  
+- **Multiple Pages:** Comprehensive site structure with dedicated sections  
+- **Accessibility:** Semantic HTML and keyboard navigation support  
+- **Performance Optimized:** Efficient CSS and JavaScript implementation  
 
 ---
 
-## Deliverables
-
-1. A GitHub repository containing:
-
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
+## 📄 Pages Included
+- **Homepage (index.html):** Landing page with overview of network benefits  
+- **Researchers (researchers.html):** Directory of cancer researchers with search functionality  
+- **Collaboration (collaboration.html):** Opportunities for research collaboration  
+- **Communities (communities.html):** Specialized research communities  
+- **Funding (funding.html):** Research funding opportunities and grants  
+- **Knowledge Hub (knowledge.html):** Research publications, datasets, and resources  
+- **Login (login.html):** User authentication page  
+- **Register (register.html):** New user registration form  
 
 ---
 
-## Outcome
+## 🛠️ Technology Stack
+- **HTML5:** Semantic markup structure  
+- **CSS3:** Custom properties, Flexbox, Grid, and responsive design  
+- **JavaScript (ES6+):** Interactivity and dynamic content  
+- **Font Awesome:** Icon library  
+- **Google Fonts:** Montserrat and Roboto typefaces  
 
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
+---
+
+## 📂 Project Structure
+
+```text
+global-cancer-research-network/
+│
+├── index.html                # Homepage
+├── researchers.html          # Researchers directory
+├── collaboration.html        # Collaboration opportunities
+├── communities.html          # Research communities
+├── funding.html              # Funding opportunities
+├── knowledge.html            # Knowledge hub
+├── login.html                # Login page
+├── register.html             # Registration page
+│
+├── assets/
+│   ├── images/
+│   │   └── cancer.ico        # Favicon
+│   ├── css/                  # Stylesheets (one per page)
+│   │   ├── index.css
+│   │   ├── researchers.css
+│   │   ├── collaboration.css
+│   │   ├── communities.css
+│   │   ├── funding.css
+│   │   ├── knowledge.css
+│   │   ├── login.css
+│   │   └── register.css
+│   └── js/                   # JavaScript files (one per page)
+│       ├── index.js
+│       ├── researchers.js
+│       ├── collaboration.js
+│       ├── communities.js
+│       ├── funding.js
+│       ├── knowledge.js
+│       ├── login.js
+│       └── register.js
+│
+└── README.md                 # Documentation file
+
+## THIS WEBSITE IS INCOMPLETE, FOR THE SAKE OF MEETING UP DEADLINE FOR SUBMISSION I WILL LEAVE IT AS IT IS, I WILL COMPLETE IT AND ADD MORE FEATURES LATER.
